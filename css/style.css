@@ -1,5 +1,7 @@
 body {
     background-color: #ffcc99;
+    background-image: url('../assets/images/repeating_kangaroo_pattern.png');
+    background-repeat: repeat;
     color: #000000;
     font-family: 'Comic Sans MS', cursive, sans-serif;
 }
@@ -9,7 +11,7 @@ body {
     margin: 0 auto;
     border: 2px solid #000;
     padding: 20px;
-    background-color: #ffffcc;
+    background-color: rgba(255, 255, 204, 0.8); /* Slight transparency to see the pattern */
 }
 
 .tabs {
