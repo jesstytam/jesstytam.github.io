@@ -26,3 +26,22 @@ h1, h2 {
     border-top: 2px solid #000;
     padding-top: 10px;
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
