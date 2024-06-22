@@ -1,0 +1,28 @@
+body {
+    background-color: #ffcc99;
+    color: #000000;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #ffffcc;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ff6600;
+}
+
+.content {
+    text-align: center;
+}
+
+.guestbook {
+    margin-top: 20px;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+}
