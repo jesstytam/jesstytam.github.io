@@ -6,22 +6,29 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Retro Website!</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+        <div class="tab-container">
+            <ul class="tabs">
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="home.html">About Me</a></li>
                 <li><a href="science.html">Science</a></li>
             </ul>
-        </nav>
+        </div>
+        <h1>Welcome to My Retro Website!</h1>
         <div class="content">
             <p>This is my personal website in the style of GeoCities!</p>
             <img src="assets/images/retro_image.gif" alt="Retro Image">
             <div class="guestbook">
                 <h2>Sign My Guestbook!</h2>
-                <!-- Add guestbook form here -->
+                <form id="guestbook-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
+    <script src="assets/scripts/script.js"></script>
 </body>
 </html>
