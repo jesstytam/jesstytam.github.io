@@ -2,6 +2,7 @@ body {
     background-color: #000000;
     color: #FFA525 !important;
     font-family: Hack;
+    font-size: medium;
     margin: 0;  /* Remove default margin */
     padding: 0; /* Remove default padding */
 } 
@@ -42,7 +43,7 @@ nav ul li a:hover {
 }
 
 .content {
-    text-align: center;
+    text-align: left;
 }
 
 .guestbook {
