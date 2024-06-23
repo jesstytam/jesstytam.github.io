@@ -78,3 +78,14 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
 }
+
+img {
+    float: left;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+p {
+    display: block;
+    margin: 10;
+    padding: 5;
+}
