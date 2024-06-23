@@ -69,10 +69,15 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-.guestbook {
+.publications, .teaching {
+    width: 80%;
+    max-width: 1200px;
     margin-top: 20px;
-    border-top: 2px solid #000;
-    padding-top: 10px;
+    text-align: left; /* Left align text */
+}
+
+.publications p, .teaching p {
+    margin-bottom: 20px;
 }
 
 h1, h2 {
@@ -111,4 +116,10 @@ p {
     display: block;
     margin: 10;
     padding: 5;
+}
+
+.guestbook {
+    margin-top: 20px;
+    border-top: 2px solid #000;
+    padding-top: 10px;
 }
