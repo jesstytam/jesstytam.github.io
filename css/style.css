@@ -105,11 +105,11 @@ a:hover {
     color: rgb(255, 194, 225);
 }
   
-a:visited {
+/* a:visited {
     color:  #cc00ff;
     background-color: transparent;
     text-decoration: none;
-}
+} */
 
 img {
     float: left;
