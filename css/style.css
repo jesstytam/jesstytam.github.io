@@ -100,9 +100,13 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
+
+a:hover {
+    color: rgb(255, 194, 225);
+}
   
 a:visited {
-    color:  #FC52E3;
+    color:  #cc00ff;
     background-color: transparent;
     text-decoration: none;
 }
