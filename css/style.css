@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
     color: #FFA525 !important;
-    font-family: Hack;
+    font-family: Consolas;
     font-size: medium;
     margin: 0;  /* Remove default margin */
     padding: 0; /* Remove default padding */
