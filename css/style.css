@@ -110,11 +110,11 @@ a:hover {
     color: rgb(255, 194, 225);
 }
   
-/* a:visited {
-    color:  #cc00ff;
+a:visited {
+    color:  #FC52E3;
     background-color: transparent;
     text-decoration: none;
-} */
+}
 
 img {
     float: left;
