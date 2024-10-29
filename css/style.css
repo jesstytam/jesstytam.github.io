@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Hack;
+    src: url("assets/Hack-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #000000;
     color: #FFA525 !important;
-    font-family: Consolas;
-    font-size: medium;
     margin: 0;  /* Remove default margin */
     padding: 0; /* Remove default padding */
 } 
