@@ -111,7 +111,7 @@ a:hover {
 }
   
 a:visited {
-    color:  #FC52E3;
+    color:  rgb(255, 194, 225);
     background-color: transparent;
     text-decoration: none;
 }
