@@ -8,8 +8,8 @@
 body {
     background-color: #000000;
     color: #FFA525 !important;
-    margin: 0;  /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0;
+    padding: 0;
 } 
 
 nav {
@@ -78,7 +78,7 @@ nav ul li a:hover {
     width: 80%;
     max-width: 1200px;
     margin-top: 20px;
-    text-align: left; /* Left align text */
+    text-align: left;
 }
 
 .publications p, .teaching p {
@@ -111,14 +111,14 @@ a:hover {
 }
   
 a:visited {
-    color:  rgb(255, 194, 225);
+    color:  #FC52E3;
     background-color: transparent;
     text-decoration: none;
 }
 
 img {
     float: left;
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px; 
 }
 
 p {
