@@ -21,6 +21,10 @@ tbody {
     color: #5CC0FF !important;
 }
 
+td {
+    padding: 4px 6px;
+}
+
 li {
     color: #ff0000 !important;
 }
