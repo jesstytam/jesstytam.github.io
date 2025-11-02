@@ -16,7 +16,7 @@ table {
     border: 1px solid rgb(92 192 255);
 }
 
-tbody > tr > th:first-of-type {
+tbody {
     text-align: left;
     color: #5CC0FF !important;
 }
