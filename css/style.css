@@ -12,6 +12,15 @@ body {
     padding: 0;
 } 
 
+table {
+    border: 1px solid rgb(140 140 140);
+}
+
+tbody > tr > th:first-of-type {
+    text-align: left;
+    color: #ff0000 !important;
+}
+
 li {
     color: #ff0000 !important;
 }
