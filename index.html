@@ -48,7 +48,7 @@
                         </tr>
                         <tr>
                           <th scope="row">Infrastructure</th>
-                          <td>CI/CD, GitHub Actions, Docker. Terraform</td>
+                          <td>CI/CD, GitHub Actions, Docker, Terraform, Kubernetes</td>
                         </tr>
                         <tr>
                           <th scope="row">Cloud & Systems</th>
@@ -74,14 +74,14 @@
         <div class="publications">
           <h2>📢 Projects 📢</h2>
             <p>
-                1. <a style="color: #00FF00" href="https://github.com/jesstytam/books_db"><strong>Book tracker</strong></a> application using FastAPI and Postgres database to show a few books from my reading list (WIP).
-                I implemented a <strong style="color: #5CC0FF">CI/CI pipeline</strong> using <strong style="color: #5CC0FF">Github Actions</strong> and containerised the application with <strong style="color: #5CC0FF">Docker</strong>.
-                I then configured and created <strong style="color: #5CC0FF">Microsoft Azure</strong> infrastructure using <strong style="color: #5CC0FF">Terraform</strong>.
-                Finally, using <strong style="color: #5CC0FF">Kubernetes</strong>, I deployed the application and database on Azure for hosting.
+                1. <a style="color: #00FF00" href="https://github.com/jesstytam/books_db"><strong>Book Tracker</strong></a> application using FastAPI and a PostgreSQL database to display books from my reading list.
+                I first provisioned <strong style="color: #5CC0FF">Azure</strong> infrastructure using <strong style="color: #5CC0FF">Terraform</strong>, including an Azure Container Registry and PostgreSQL server.
+                I then developed a simple <strong style="color: #5CC0FF">FastAPI</strong> application, containerised it using <strong style="color: #5CC0FF">Docker</strong>, and configured <strong style="color: #5CC0FF">GitHub Actions</strong> to build, test, and publish container image.
+                Finally, I deployed the application to <strong style="color: #5CC0FF">Azure Kubernetes Service</strong>, where it connects to the managed PostgreSQL database hosted on Azure.
             </p>
             <p>
                 2. <a style="color: #00FF00" href="https://github.com/jesstytam/d20"><strong>D20</strong></a> application written in Lua to roll a dice.
-                I implemented a <strong style="color: #5CC0FF">CI/CD pipeline</strong> using <strong style="color: #5CC0FF">GitHub Actions</strong> to containerise the app with <strong style="color: #5CC0FF">Docker</strong>, and then deployed it on <strong style="color: #5CC0FF">Microsoft Azure</strong>.
+                I implemented a <strong style="color: #5CC0FF">CI/CD pipeline</strong> using <strong style="color: #5CC0FF">GitHub Actions</strong> to containerise the app with <strong style="color: #5CC0FF">Docker</strong>, and then deployed it on <strong style="color: #5CC0FF">Azure</strong>.
             </p>
             <p>
                 3. <a style="color: #00FF00" href="https://github.com/jesstytam/specieshindex"><strong>specieshindex</strong></a> R package to extract bibliometric information from literature databases, e.g. Scopus, using their APIs.
